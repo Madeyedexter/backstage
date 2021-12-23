@@ -16304,10 +16304,10 @@ highlight.js@~10.7.0:
   resolved "https://registry.npmjs.org/highlight.js/-/highlight.js-10.7.3.tgz#697272e3991356e40c3cac566a74eef681756531"
   integrity sha512-tzcUFauisWKNHaRkN4Wjl/ZA07gENAjFl3J/c480dprkGTg5EQstgaNFqBfUqCq54kZRIEcreTsAgF/m2quD7A==
 
-history@^5.0.0:
-  version "5.0.1"
-  resolved "https://registry.npmjs.org/history/-/history-5.0.1.tgz#de35025ed08bce0db62364b47ebbf9d97b5eb06a"
-  integrity sha512-5qC/tFUKfVci5kzgRxZxN5Mf1CV8NmJx9ByaPX0YTLx5Vz3Svh7NYp6eA4CpDq4iA9D0C1t8BNIfvQIrUI3mVw==
+history@^5.0.0, history@^5.2.0:
+  version "5.2.0"
+  resolved "https://registry.npmjs.org/history/-/history-5.2.0.tgz#7cdd31cf9bac3c5d31f09c231c9928fad0007b7c"
+  integrity sha512-uPSF6lAJb3nSePJ43hN3eKj1dTWpN9gMod0ZssbFTIsen+WehTmEadgL+kg78xLJFdRfrrC//SavDzmRVdE+Ig==
   dependencies:
     "@babel/runtime" "^7.7.6"
 
@@ -24246,12 +24246,19 @@ react-router-dom@6.0.0-beta.0, react-router-dom@^6.0.0-beta.0:
     prop-types "^15.7.2"
     react-router "6.0.0-beta.0"
 
-react-router@6.0.0-beta.0, react-router@^6.0.0-beta.0:
+react-router@6.0.0-beta.0:
   version "6.0.0-beta.0"
   resolved "https://registry.npmjs.org/react-router/-/react-router-6.0.0-beta.0.tgz#3e11f39b6ded4412c2fed9e4f989dd4c8156724d"
   integrity sha512-VgMdfpVcmFQki/LZuLh8E/MNACekDetz4xqft+a6fBZvvJnVqKbLqebF7hyoawGrV1HcO5tVaUang2Og4W2j1Q==
   dependencies:
     prop-types "^15.7.2"
+
+react-router@6.2.1, react-router@^6.0.0-beta.0:
+  version "6.2.1"
+  resolved "https://registry.npmjs.org/react-router/-/react-router-6.2.1.tgz#be2a97a6006ce1d9123c28934e604faef51448a3"
+  integrity sha512-2fG0udBtxou9lXtK97eJeET2ki5//UWfQSl1rlJ7quwe6jrktK9FCCc8dQb5QY6jAv3jua8bBQRhhDOM/kVRsg==
+  dependencies:
+    history "^5.2.0"
 
 react-side-effect@^2.1.0:
   version "2.1.0"
